@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[8]:
-
-
 '''
 Turtle starter code
 ATLS 1300
@@ -12,6 +9,7 @@ May 29, 2020
 '''
 
 from turtle import * #import the library of commands that you'd like to use
+colormode(255)
 
 #Create a panel to draw on. 
 panel = Screen()
@@ -24,9 +22,6 @@ panel.setup(width=w, height=h) #600 x 600 is a decent size to work on.
 screen.setworldcoordinates(0, w, h, 0)
 
 #=======Add your code here======
-
-
-# In[ ]:
 
 
 
