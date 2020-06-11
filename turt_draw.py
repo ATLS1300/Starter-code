@@ -32,3 +32,5 @@ rando.goto(300,300) #start in center
 for frame in range(1000):
     rando.forward(random.randint(10,50))
     rando.right(random.randint(0,180))
+    xpos = rando.position()[0]
+    ypos = rando.position()[1]
